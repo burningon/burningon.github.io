@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title: "My new blog"
-tagline: "Fantastic new blog"
+title: "My new cool blog"
+tagline: "Fantastic blog"
 author : 
   name : Robert Louis Stevenson
   email: "chris@burningon.com"
@@ -30,7 +30,7 @@ author :
 #
 JB :
   version : 0.3.0
-  bootswatch: superhero
+  bootswatch: spruce
   # Links in your website should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
   #

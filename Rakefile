@@ -410,7 +410,7 @@ END
         
         # Dump it out
         stuff = []
-        transform = { prompt: prompt, code: code, type: type, version: 1, name: name }
+        transform = { :prompt => prompt, :code => code, :type => type, :version => 1, :name => name }
         
         old = JSON.parse File.read( "_hyde/transforms.json" )
         # Join them together
